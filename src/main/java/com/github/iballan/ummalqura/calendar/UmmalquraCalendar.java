@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package com.github.msarhan.ummalqura.calendar;
+package com.github.iballan.ummalqura.calendar;
 
 import java.util.*;
 
@@ -168,7 +168,7 @@ public class UmmalquraCalendar extends GregorianCalendar {
 	 *                   in the calendar.
 	 */
 	public UmmalquraCalendar(int year, int month, int dayOfMonth, int hourOfDay,
-													 int minute) {
+							 int minute) {
 		this(year, month, dayOfMonth, hourOfDay, minute, 0);
 	}
 
@@ -188,7 +188,7 @@ public class UmmalquraCalendar extends GregorianCalendar {
 	 *                   in the calendar.
 	 */
 	public UmmalquraCalendar(int year, int month, int dayOfMonth, int hourOfDay,
-													 int minute, int second) {
+							 int minute, int second) {
 
 		set(YEAR, year);
 		set(MONTH, month);
@@ -220,7 +220,7 @@ public class UmmalquraCalendar extends GregorianCalendar {
 			}
 
 			int[] gDateInfo = UmmalquraGregorianConverter.toGregorian(hDateInfo[0], hDateInfo[1],
-							hDateInfo[2]);
+																	  hDateInfo[2]);
 
 			super.set(YEAR, gDateInfo[0]);
 			super.set(MONTH, gDateInfo[1]);

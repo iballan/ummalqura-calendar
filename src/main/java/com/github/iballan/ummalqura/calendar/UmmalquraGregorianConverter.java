@@ -1,4 +1,4 @@
-package com.github.msarhan.ummalqura.calendar;
+package com.github.iballan.ummalqura.calendar;
 
 import java.util.Calendar;
 import java.util.Date;

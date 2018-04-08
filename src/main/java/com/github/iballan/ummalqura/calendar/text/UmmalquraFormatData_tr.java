@@ -22,47 +22,47 @@
  * THE SOFTWARE.
  */
 
-package com.github.msarhan.ummalqura.calendar.text;
+package com.github.iballan.ummalqura.calendar.text;
 
 import java.util.ListResourceBundle;
 
 /**
  * @author Mouaffak A. Sarhan.
  */
-public class UmmalquraFormatData_en extends ListResourceBundle {
+public class UmmalquraFormatData_tr extends ListResourceBundle {
 
 	@Override
 	protected Object[][] getContents() {
 		return new Object[][]{
 						{"MonthNames",
 										new String[]{
-														"Muharram",
-														"Safar",
-														"Rabi' al-Awwal",
-														"Rabi' al-Thani",
-														"Jumada al-Ula",
-														"Jumada al-Akhirah",
-														"Rajab",
-														"Sha'ban",
-														"Ramadhan",
-														"Shawwal",
-														"Thul-Qi'dah",
-														"Thul-Hijjah"}
+														"Muharrem",
+														"Safer",
+														"Rebiülevvel",
+														"Rebiülahir",
+														"Cemaziyelevvel",
+														"Cemaziyelahir",
+														"Recep",
+														"Şaban",
+														"Ramazan",
+														"Şevval",
+														"Zilkade",
+														"Zilhicce"}
 						},
 						{"MonthAbbreviations",
 										new String[]{
 														"Muh"
 														, "Saf"
-														, "Rab-I"
-														, "Rab-II"
-														, "Jum-I"
-														, "Jum-II"
-														, "Raj"
-														, "Sha"
-														, "Ram"
-														, "Shw"
-														, "Thul-Q"
-														, "Thul-H"}}
+														, "Reb-I"
+														, "Reb-II"
+														, "Cema-I"
+														, "Cema-II"
+														, "Rec"
+														, "Şab"
+														, "Rama"
+														, "Şev"
+														, "Zilk"
+														, "Zilh"}}
 		};
 	}
 

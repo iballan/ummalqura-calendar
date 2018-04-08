@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package com.github.msarhan.ummalqura.calendar.text;
+package com.github.iballan.ummalqura.calendar.text;
 
 import java.util.ListResourceBundle;
 

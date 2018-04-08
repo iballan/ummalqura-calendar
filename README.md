@@ -10,7 +10,7 @@ Implementation of `java.util.Calendar` for the Umm Al-Qura calendar system.
 **Maven**
 ```xml
 <dependency>
-	<groupId>com.github.msarhan</groupId>
+	<groupId>com.github.iballan</groupId>
 	<artifactId>ummalqura-calendar</artifactId>
 	<version>1.1.7</version>
 </dependency>
@@ -21,7 +21,7 @@ repositories {
 	mavenCentral()
 }
 dependencies {
-	compile group: 'com.github.msarhan', name: 'ummalqura-calendar', version:'1.1.7'
+	compile group: 'com.github.iballan', name: 'ummalqura-calendar', version:'1.1.7'
 }
 ```
 
@@ -29,8 +29,8 @@ dependencies {
 ```java
 ##---------------Begin: proguard configuration for UmmAlqura  ----------
 -dontwarn ummalqura.**
--dontwarn com.github.msarhan.ummalqura.**
--keep class com.github.msarhan.ummalqura.** { *; }
+-dontwarn com.github.iballan.ummalqura.**
+-keep class com.github.iballan.ummalqura.** { *; }
 
 ##---------------End: proguard configuration for UmmAlqura  ---------
 ```

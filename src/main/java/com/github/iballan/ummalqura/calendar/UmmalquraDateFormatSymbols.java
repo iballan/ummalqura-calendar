@@ -85,6 +85,11 @@ class UmmalquraDateFormatSymbols {
 	}
 
 	private void initializeData(Locale desiredLocale) {
+		if (!("tr".equalsIgnoreCase(desiredLocale.getLanguage()) ||
+				"ar".equalsIgnoreCase(desiredLocale.getLanguage()) || "en"
+				.equalsIgnoreCase(desiredLocale.getLanguage()))) {
+			throw new IllegalArgumentException("Supported locales are 'Turkish', 'English' and 'Arabic'");
+		}
 		locale = desiredLocale;
 
 		// Initialize the fields from the ResourceBundle for locale.

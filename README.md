@@ -7,7 +7,7 @@ Implementation of `java.util.Calendar` for the Umm Al-Qura calendar system.
 
 1. [http://www.staff.science.uu.nl/~gent0113/islam/ummalqura.htm](http://www.staff.science.uu.nl/~gent0113/islam/ummalqura.htm).
 2. [http://www.ummulqura.org.sa/](http://www.ummulqura.org.sa).
-3. [https://github.com/msarhan/ummalqura-calendar](Original Repo)
+3. [https://github.com/msarhan/ummalqura-calendar](https://github.com/msarhan/ummalqura-calendar) Original Repo
 
 ##Installation
 **Maven**

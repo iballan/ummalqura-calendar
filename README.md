@@ -1,27 +1,42 @@
-#ummalqura-calendar
+#ummalqura-calendar 
+
 Implementation of `java.util.Calendar` for the Umm Al-Qura calendar system.
+
 
 **Useful links:**
 
 1. [http://www.staff.science.uu.nl/~gent0113/islam/ummalqura.htm](http://www.staff.science.uu.nl/~gent0113/islam/ummalqura.htm).
 2. [http://www.ummulqura.org.sa/](http://www.ummulqura.org.sa).
+3. [https://github.com/msarhan/ummalqura-calendar](Original Repo)
 
 ##Installation
 **Maven**
 ```xml
+<!-- Step 1. Add the JitPack repository to your build file -->
+<repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
+<!-- Step 2. Add the dependency -->
 <dependency>
 	<groupId>com.github.iballan</groupId>
 	<artifactId>ummalqura-calendar</artifactId>
-	<version>1.1.7</version>
+	<version>1.1.9</version>
 </dependency>
+
 ```
 **Gradle**
 ```gradle
-repositories {
-	mavenCentral()
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
 }
 dependencies {
-	compile group: 'com.github.iballan', name: 'ummalqura-calendar', version:'1.1.7'
+		implementation 'com.github.iballan:ummalqura-calendar:1.1.9'
 }
 ```
 
@@ -31,7 +46,6 @@ dependencies {
 -dontwarn ummalqura.**
 -dontwarn com.github.iballan.ummalqura.**
 -keep class com.github.iballan.ummalqura.** { *; }
-
 ##---------------End: proguard configuration for UmmAlqura  ---------
 ```
 

@@ -23,7 +23,7 @@ Implementation of `java.util.Calendar` for the Umm Al-Qura calendar system.
 <dependency>
 	<groupId>com.github.iballan</groupId>
 	<artifactId>ummalqura-calendar</artifactId>
-	<version>1.1.9</version>
+	<version>1.1.10</version>
 </dependency>
 
 ```
@@ -36,7 +36,7 @@ allprojects {
 	}
 }
 dependencies {
-		implementation 'com.github.iballan:ummalqura-calendar:1.1.9'
+		implementation 'com.github.iballan:ummalqura-calendar:1.1.10'
 }
 ```
 

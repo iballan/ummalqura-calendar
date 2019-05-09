@@ -88,9 +88,11 @@ class UmmalquraDateFormatSymbols {
 		if (!("tr".equalsIgnoreCase(desiredLocale.getLanguage()) ||
 				"ar".equalsIgnoreCase(desiredLocale.getLanguage()) || "en"
 				.equalsIgnoreCase(desiredLocale.getLanguage()))) {
-			throw new IllegalArgumentException("Supported locales are 'Turkish', 'English' and 'Arabic'");
+			locale = Locale.ENGLISH; // Instead of crashing, show it in English
+//			throw new IllegalArgumentException("Supported locales are 'Turkish', 'English' and 'Arabic'");
+		} else {
+			locale = desiredLocale;
 		}
-		locale = desiredLocale;
 
 		// Initialize the fields from the ResourceBundle for locale.
 		ResourceBundle resource = ResourceBundle.getBundle("com.github.iballan.ummalqura.calendar.text.UmmalquraFormatData", locale);
